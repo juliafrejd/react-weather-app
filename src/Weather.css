@@ -14,7 +14,7 @@
   margin-bottom: 20px;
 }
 .Weather ul {
-  margin: 0;
+  margin: 5px;
   padding: 0;
 }
 .Weather li {
@@ -25,15 +25,15 @@
 }
 
 .Weather img {
-  height: 64px;
-  width: 64px;
+  height: 84px;
+  width: 84px;
   float: left;
 }
 .Weather .temperature {
   font-weight: 400;
   color: #4b4b4b;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 84px;
   margin-left: 10px;
 }
 .Weather .unit {
