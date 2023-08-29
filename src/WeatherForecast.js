@@ -14,7 +14,7 @@ export default function WeatherForecast() {
             ></img>
           </div>
           <div className="WeatherForecast-temperatures">
-            <span className="WeatherForecast-temperature-max">19</span>
+            <span className="WeatherForecast-temperature-max">18</span>
             <span className="WeatherForecast-temperature-min">10</span>
           </div>
         </div>
