@@ -7,8 +7,8 @@
 }
 .WeatherForecast-icon img {
   float: none;
-  width: 35px;
-  height: 35px;
+  width: 42px;
+  height: 42px;
 }
 .WeatherForecast-temperature-min {
   opacity: 0.7;
