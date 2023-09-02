@@ -1,7 +1,19 @@
+body {
+  background-color: rgba(234, 249, 249, 0.5) !important;
+  font-family: "Open Sans", sans-serif;
+}
 .App {
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 700px;
+  margin: 100px auto;
 }
 .App footer {
   font-size: 12px;
+}
+@media (max-width: 700px) {
+  body {
+    background-color: white !important;
+  }
+  .App {
+    margin: 0 auto;
+  }
 }

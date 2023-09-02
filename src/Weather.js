@@ -17,6 +17,7 @@ export default function Weather(props) {
       description: response.data.condition.description,
       wind: Math.round(response.data.wind.speed),
       city: response.data.city,
+      country: response.data.country,
       humidity: response.data.temperature.humidity,
       feelslike: Math.round(response.data.temperature.feels_like),
     });
@@ -53,7 +54,7 @@ export default function Weather(props) {
             <div className="col-3">
               <input
                 type="submit"
-                value="search"
+                value="Search"
                 className="btn btn-primary w-100"
               ></input>
             </div>
