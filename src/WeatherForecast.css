@@ -1,13 +1,14 @@
 .WeatherForecast {
   text-align: center;
+  font-size: 14px;
 }
 .WeatherForecast-day {
   font-weight: 700;
 }
 .WeatherForecast-icon img {
   float: none;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 .WeatherForecast-temperature-min {
   opacity: 0.7;
