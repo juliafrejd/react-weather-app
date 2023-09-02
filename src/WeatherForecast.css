@@ -2,13 +2,13 @@
   text-align: center;
   font-size: 14px;
 }
-.WeatherForecast-day {
-  font-weight: 700;
-}
 .WeatherForecast-icon img {
   float: none;
   width: 42px;
   height: 42px;
+}
+.WeatherForecast-temperature-max {
+  font-weight: 700;
 }
 .WeatherForecast-temperature-min {
   opacity: 0.7;
